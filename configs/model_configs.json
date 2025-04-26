@@ -1,0 +1,23 @@
+{
+  "phi-3-mini": {
+    "name": "Phi-3-mini",
+    "parameters": "3.8B",
+    "quantization": "fp16",
+    "context_window": 8192,
+    "url": "microsoft/Phi-3-mini-4k-instruct"
+  },
+  "llama3-8b": {
+    "name": "Llama 3 8B",
+    "parameters": "8B",
+    "quantization": "4bit",
+    "context_window": 8192,
+    "url": "meta-llama/Llama-3-8B-Instruct"
+  },
+  "mistral-7b": {
+    "name": "Mistral 7B",
+    "parameters": "7B",
+    "quantization": "4bit",
+    "context_window": 8192,
+    "url": "mistralai/Mistral-7B-Instruct-v0.2"
+  }
+}
